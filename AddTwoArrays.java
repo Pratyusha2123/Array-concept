@@ -28,14 +28,12 @@ public class AddTwoArrays {
 
     public static void main(String[] args) {
 
-        // Test Case 1
         int[] input1 = {2, 3, 4, 1};
         int[] input2 = {2, 3, 5, 6, 7, 8, 9};
 
         System.out.println("Test Case 1 Output:");
         printArray(addArrays(input1, input2));
 
-        // Test Case 2
         int[] input3 = {2, 3, 5, 6, 7, 8, 9};
         int[] input4 = {2, 3, 4, 1};
 

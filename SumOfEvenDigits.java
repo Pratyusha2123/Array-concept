@@ -1,6 +1,5 @@
 public class SumOfEvenDigits {
 
-    // Method to find sum of even digits
     public static int sumEvenDigits(int num) {
 
         int sum = 0;
@@ -16,7 +15,6 @@ public class SumOfEvenDigits {
             num = num / 10;
         }
 
-        // Return original number if no even digit exists
         return (sum == 0) ? original : sum;
     }
 

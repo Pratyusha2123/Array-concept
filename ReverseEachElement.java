@@ -1,6 +1,5 @@
 public class ReverseEachElement {
 
-    // Method to reverse a number
     public static int reverseNumber(int num) {
         int reverse = 0;
 

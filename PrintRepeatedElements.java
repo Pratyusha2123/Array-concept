@@ -8,7 +8,6 @@ public class PrintRepeatedElements {
 
             boolean alreadyPrinted = false;
 
-            // Check if already printed
             for (int k = 0; k < i; k++) {
                 if (arr[i] == arr[k]) {
                     alreadyPrinted = true;
@@ -20,7 +19,6 @@ public class PrintRepeatedElements {
                 continue;
             }
 
-            // Check duplicates
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[i] == arr[j]) {
                     System.out.print(arr[i] + " ");

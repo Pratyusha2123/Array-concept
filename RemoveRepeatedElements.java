@@ -10,7 +10,6 @@ public class RemoveRepeatedElements {
                 }
             }
 
-            // Print only elements that appear once
             if (count == 1) {
                 System.out.print(arr[i] + " ");
             }

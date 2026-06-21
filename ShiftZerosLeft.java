@@ -5,21 +5,18 @@ public class ShiftZerosLeft {
         int[] result = new int[arr.length];
         int index = 0;
 
-        // Count zeros
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == 0) {
                 index++;
             }
         }
 
-        // Place non-zero elements after zeros
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] != 0) {
                 result[index++] = arr[i];
             }
         }
 
-        // Copy back
         for (int i = 0; i < arr.length; i++) {
             arr[i] = result[i];
         }
